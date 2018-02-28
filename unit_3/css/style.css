@@ -1,23 +1,26 @@
  
 *{
-	padding: 0,
+	padding: 0;
 	margin:0;
+	box-sizing: border-box;
 }
 
  body {
-background:url(../images/Meiatf.jpg);
-background-size: cover;
-margin-right: 150px;
-margin-left: 150px;
-font-family: Montserrat, sans-serif;
-text-align: center;
+	font-family: Montserrat, sans-serif;
+	line-height:1.3;
+	font-size:16px;
+	color:#333;
 }
 
 /*#fcfe42 giallo*/
-
+header {
+	background:#fff;
+	/* overflow: hidden; */
+}
 h1{
 	color: #fcfe42;
 	font-size: 50px;
+	text-shadow: 2px 2px #3f4350;
 }
 
 h2{
@@ -38,10 +41,11 @@ hr{
 
 
 #company {
-	margin-top: 255px;
-	margin-right: 150px;
-	margin-left: 150px;
-	text-shadow: 2px 2px #3f4350;
+	background:url(../images/Meiatf.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 90vh;
+	/* padding: 10em; */
 }
 
 #slogan {
@@ -74,28 +78,10 @@ hr{
 }
 
 
-
-.navi_banner a {
-	float: right;
-    display: block;
-    color: #3f4350;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-
 #preventivo a {
 	color:#ef3d20;
 	font-weight: 450;
 }
-
-#logo {
-	float: left;
-	margin-left: 50px;
-}
-
 #active{
 	color: #a4a8b0;
 	text-decoration: underline;
@@ -113,16 +99,4 @@ hr{
 #MEI {
 	background-color:#e8edf5; 
 	margin-top: 30px;
-	max-width:;
 }
-
-#servizi{
-	shape-margin: 
-}
-
-
-
-
-
-
-
