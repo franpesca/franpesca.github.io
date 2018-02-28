@@ -1,0 +1,128 @@
+ 
+*{
+	padding: 0,
+	margin:0;
+}
+
+ body {
+background:url(../images/Meiatf.jpg);
+background-size: cover;
+margin-right: 150px;
+margin-left: 150px;
+font-family: Montserrat, sans-serif;
+text-align: center;
+}
+
+/*#fcfe42 giallo*/
+
+h1{
+	color: #fcfe42;
+	font-size: 50px;
+}
+
+h2{
+	color: #3f4350;
+	font-size: 40px;
+}
+
+h3{
+	color:#3f4350;
+	font-style: italic;
+}
+
+hr{
+	width: 400px;
+	color:3f4350;
+}
+
+
+
+#company {
+	margin-top: 255px;
+	margin-right: 150px;
+	margin-left: 150px;
+	text-shadow: 2px 2px #3f4350;
+}
+
+#slogan {
+	margin-top: 50px;
+}
+
+.hr {
+	margin-top: 100px;
+	margin-right: 150px;
+	margin-left: 150px;
+
+}
+
+.cta_button a{
+	margin-top: 100px;
+	margin-bottom: 80px;
+	color: #ef3d20;
+	font-weight: 500;
+	font-size: 21px;
+
+}
+
+.navi_banner {
+	background-color: #dbe2f5;
+	opacity: 0.5;
+    overflow: hidden;
+	padding: 14px 14px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+.navi_banner a {
+	float: right;
+    display: block;
+    color: #3f4350;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+#preventivo a {
+	color:#ef3d20;
+	font-weight: 450;
+}
+
+#logo {
+	float: left;
+	margin-left: 50px;
+}
+
+#active{
+	color: #a4a8b0;
+	text-decoration: underline;
+}
+
+/*.dropdown-content a {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }*/
+
+#MEI {
+	background-color:#e8edf5; 
+	margin-top: 30px;
+	max-width:;
+}
+
+#servizi{
+	shape-margin: 
+}
+
+
+
+
+
+
+
