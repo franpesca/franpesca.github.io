@@ -17,6 +17,10 @@ header{
 	margin-right: 150px;
 }
 
+nav{
+	background: blue
+}
+
 
 nav a{
 	text-decoration: none;
@@ -28,11 +32,12 @@ nav a{
 ul{
 	text-decoration: none;
 	display: inline;
+	padding-bottom: 10em;
 }
 
 li{
 	display: inline;
-	padding:0 2em;
+	padding: 2em;
 }
 
 
@@ -42,9 +47,17 @@ p{
 }
 
 h1{
-	font-size: 2.2em;
+	font-size: 2.5em;
 	color: #fcfe42;
 	text-shadow: 2px 2px #3f4350;
+}
+
+h2{ 
+	font-size: 2em;
+	font-family: "Sanchez",serif;
+	letter-spacing: .8px;
+	padding: 2em 0 0 2em;
+	margin: 0 auto;
 }
 
 h3{
