@@ -28,21 +28,9 @@ nav a{
 	text-decoration: none;
 	color:darkgray;
 	font-size: 1.1em;
+	padding:0 2em;
 }
 
-
-ul{
-	text-decoration: none;
-	display: inline;
-	/*text-align: right;*/
-}
-
-
-li{
-	display: inline;
-	padding: 2em;
-	/*text-align: right;*/
-}
 
 
 p{
@@ -68,6 +56,10 @@ h3{
 	font-size: 1.3em;
 	font-style: italic;
 	padding:1em 0;
+}
+
+main{
+	background-color: #fff;
 }
 
 footer{
@@ -111,10 +103,6 @@ img {
 	text-align: center;
 }
 
-
-#mei{
-	background-color: #fff;
-}
 
 #main{
 	background-color: #FFED74;
