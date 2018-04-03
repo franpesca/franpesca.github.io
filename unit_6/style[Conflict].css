@@ -255,18 +255,18 @@ img {
 }
 
 .footer{
-width:75%;
+/*width:75%;
 margin:auto;
-margin-top: 0;
-text-align: center;
-font-style: italic;
-height: 2em;
+margin-top: 0;*/
+/*text-align: center;*/
+/*font-style: italic;
+height: 2em;*/
 }
 
 .footerclass{
 	float:left;
-	width: 45%;
-	margin: 3em 1em;
+	width: 30%;
+	margin: 5em 1em 2em;
 }
 
 
