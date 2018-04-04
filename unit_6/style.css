@@ -131,7 +131,7 @@ main>div{
 
 
 footer{
-	background-color: RGBA(9,36,104,.5);
+	background-color: #78B4FF;
 	font-size: 12px;
 	font-family: serif;
 	padding: 0 3em 1em;
@@ -198,7 +198,7 @@ main>div{
 
 #lavorirecenti{
 	background-color: rgba(120,180,255,0.5);
-	/*background-color: lightgray;*/
+
 
 }
 
@@ -232,9 +232,9 @@ main>div{
 	font-size: 14px;
 	background-color:  none;
 	float:left;	
-	width:24%;
+	width:25%;
 	height: 14em;
-	margin: 5em 0 8em;
+	margin: 3em 0 10em;
 	padding:2em 1em;
 	text-align: center;
 	font-style: italic;
@@ -243,9 +243,9 @@ main>div{
 
 
 .lavori{
-	background-color:  #FFE2B8;
+	background-color:  white;
 	width:25%;
-	margin: 7em 0;
+	margin: 3em 0 5em;
 	float:left;
 }
 
@@ -255,22 +255,20 @@ main>div{
 	margin: auto;
 }
 
-.footer{
-/*width:75%;
-margin:auto;
-margin-top: 0;*/
-/*text-align: center;*/
-/*font-style: italic;
-height: 2em;*/
-}
+
 
 .footerclass{
 	float:left;
-	width: 30%;
+	width: 48%;
 	margin: 5em 1em 2em;
 }
 
-
+.contatti>h3{
+	font-weight: 300
+	font-style:italic;
+	text-shadow: none;
+	text-decoration:none;
+}
 
 .fa:hover {
     opacity: 0.7;
