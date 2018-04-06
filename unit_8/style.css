@@ -12,8 +12,6 @@ body{
 
 
 header{
-	position: absolute
-	height: 2em;
 	background-color: #78B4FF;
 }
 
@@ -21,11 +19,8 @@ header{
 nav{
 	padding: 1.5em 3em;
 	float:right;
-	text-align: right;
-	height:4em;
-	width: 100%;
-	margin: auto;
-}
+	/*height:4em;
+*/}
 
 
 nav a{
@@ -49,8 +44,9 @@ nav a:hover{
 h2{ 
 	font-size: 2em;
 	font-family: "Sanchez",serif;
-	padding: 2em 0;
+	/*padding: 0 0 2em 0;*/
 	margin: 0 auto;
+	text-align: center;
 }
 
 
@@ -63,24 +59,17 @@ h3{
 }
 
 
-main{
+/*main{
 	background-color: rgba(120,180,255,0.5);
-}
+}*/
 
-
-main>div{
-	width:80%;
-	margin: auto;
-	margin-top: -4em;
-	background-color: white;
-}
 
 
 footer{
 	background-color: #78B4FF;
-	font-size: .7em;
-	font-family: serif;
-	padding: 0 3em 1em;
+	font-family: sans serif;
+	font-size: 1em;
+	/*padding: 0 3em 1em;*/
 }
 
 img {
@@ -88,7 +77,6 @@ img {
 }
 
 div>h2{
-	font-size: 1.5em;
 	padding-bottom: 1em;
 }
 
@@ -96,13 +84,15 @@ hr{
 	width: 5em;
 }
 
+
+
 #imgheader{
 	padding-left: 5em;
-	position:absolute;
+	float: left;
 }
 
 #company{
-	background: url(../unit_3/images/Meiatf12.png);
+	background: url(photos/Meiatf12a.png);
 	background-size: cover;
 	background-position: 100%;
 	height: 95vh;
@@ -129,6 +119,7 @@ hr{
 	padding:23em 6em;
 	margin: auto;
 	text-align: center;
+	margin-top: 2em;
 }
 
 
@@ -136,9 +127,11 @@ hr{
 main>div{
 	width:80%;
 	margin:auto;
-	background-color: 
+	padding: 2em;
+	background-color: white;
+	padding-top:6%;
+	padding-bottom: 8%;
 }
-
 
 
 #gestione>h4{
@@ -146,7 +139,8 @@ main>div{
 }
 
 #lavorirecenti{
-	background-color: rgba(120,180,255,0.5);
+	/*background-color: rgba(120,180,255,0.5);*/
+	background-color: darkgrey;
 
 
 }
@@ -154,7 +148,10 @@ main>div{
 #lavorirecenti>div{
 	width: 80%;
 	margin:auto;
-	background: url(cavi1.png);
+	padding-top:6%;
+	padding-bottom: 8%;
+	color: #f9da5c;
+	/*background: url(cavi1.png);*/
 }
 	/*background-color: rgba(120,180,255,0.5);*/
 
@@ -168,14 +165,19 @@ main>div{
 }
 
 #footerimg{
-	width: 60px;
-	padding-bottom: .1px;
-	margin-bottom: 0px;
-	position: absolute;
+	width: 5%;
+	/*padding-bottom: .1px;
+	margin-bottom: 0px;*/
+	/*position: absolute;*/
+	float:left;
 }
 
 #contatti{
 	color: #383838;
+}
+
+#ultimo{
+	margin:auto;
 }
 
 
@@ -211,34 +213,14 @@ main>div{
 }
 
 
-.button:after {
-    content: "";
-    background: yellow;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-    }
-
- .button:active:after {
- padding: 0;
- margin: 0;
- opacity: 1;
- transition: 0s
-}
-
 
 .servizi{
 	font-size: .8em;
 	float:left;	
 	width:25%;
-	height: 14em;
-	margin: 1em 0 10em;
-	padding:2em 1em;
+	/*height: 14em;*/
+	/*margin: 1em 0 10em;*/
+	/*padding:2em 1em;*/
 	text-align: center;
 	font-style: italic;
 	/*border:  .5px solid;*/
@@ -248,27 +230,33 @@ main>div{
 .lavori{
 	/*background-color:  white;*/
 	width:25%;
-	margin: 3em 0 5em;
+	/*margin: 3em 0 5em*/;
 	float:left;
 }
 
 .rjw{
-	width: 50%;
+	width: 90%;
 	display: block;
 	margin: auto;
+	border:  .8em solid white;
 }
 
 
 
 .footerclass{
 	float:left;
-	width: 48%;
-	margin: 5em 1em 2em;
+	width: 25%;
+	margin: 1% ;
 }
 
-.contatti>h3{
+.contatti>a>h3{
 	font-weight: 300
 	font-style:italic;
+	text-shadow: none;
+	text-decoration:none;
+}
+
+p>h3{
 	text-shadow: none;
 	text-decoration:none;
 }
@@ -280,6 +268,15 @@ main>div{
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+
+
+.contatti{
+	float:left;
+}
+
+.contatti:hover{
+	opacity:0.7;
 }
 
 .fa {
