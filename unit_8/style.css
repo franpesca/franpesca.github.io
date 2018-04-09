@@ -12,7 +12,6 @@ body{
 
 
 header{
-	/*background-color: #78B4FF;*/
 	background-color: #78b4ffad;
 	position: absolute;
 	width: 100%;
@@ -23,7 +22,7 @@ header{
 nav{
 	padding: 1.5em 3em;
 	float:right;
-/}
+}
 
 
 nav a{
@@ -58,6 +57,21 @@ h3{
 	padding:1em 0;
 	color: white;
 	text-shadow: 2px 2px #3f4350;
+}
+
+
+h4{
+	text-align: center;
+}
+
+
+main>div{
+	width:83%;
+	margin:auto;
+	padding: 2em;
+	background-color: white;
+	padding-top:5%;
+	padding-bottom: 6%;
 }
 
 
@@ -116,14 +130,6 @@ hr{
 
 
 
-main>div{
-	width:83%;
-	margin:auto;
-	padding: 2em;
-	background-color: white;
-	padding-top:5%;
-	padding-bottom: 6%;
-}
 
 #gestione{
 	background-color: #5b5b5b52;
@@ -157,22 +163,12 @@ main>div{
 
 #footerimg{
 	width: 5em;
-	/*float:left;*/
 }
-
-
-
-/*#contatti{
-	color: #383838;
-}*/
 
 
 #ultimo{
 	margin:auto;
 }
-
-
-
 
 
 .clearfix:after{
@@ -182,12 +178,6 @@ main>div{
 	clear:both;
 	height: 0;
 	font-size: 0;
-}
-
-
-
-h4{
-	text-align: center;
 }
 
 
@@ -262,43 +252,29 @@ h4{
 	float:left;
 	width: 31.333%;
 	margin: 1% ;
+	display: block;
 }
 
 
-/*.fa:hover {
-    opacity: 0.7;
-}*/
-
-/*.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-*/
-
-/*.contatti{
-	float:left;
-}*/
-
-/*.contattiz{
-	width:23%;
-	margin: auto;
-	float:left;
-}*/
 
 .contattiz:hover{
 	opacity:0.7;
-	width: 4em;
+}
+
+.contattiz{
+	/*width: 3em;*/
+	margin: auto;
+	display: block;
 	float: left;
 }
 
+.stemmi{
+	width:23%;
+	float:left;
+	margin:.5%;
+}
 
-/*.fa {
-    padding: 1em;
-    width: 3em;
-    text-align: center;
-    text-decoration: none;
-    text-align: center;
-    text-decoration: none;*/
+
 
 
 
