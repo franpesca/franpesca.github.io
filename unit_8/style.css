@@ -12,7 +12,8 @@ body{
 
 
 header{
-	background-color: #78b4ffad;
+	/*background-color: #78b4ffad;*/
+	background-color: #3f70adad;
 	position: absolute;
 	width: 100%;
 	z-index: 1;
@@ -38,8 +39,8 @@ nav a{
 }
 
 nav a:hover{
-	color: yellow;
-	text-decoration:underline;
+	color: #383838;
+	font-weight: 200;
 }
 
 
@@ -77,7 +78,7 @@ main>div{
 
 
 footer{
-	background-color: #78B4FF;
+	background-color: #3f70adad;
 	font-family: sans serif;
 	font-size: 1em;
 	/*padding: 0 3em 1em;*/
@@ -96,6 +97,13 @@ hr{
 	margin:auto;
 }
 
+
+
+h4{
+	font-family:Montserrat, sans-serif;
+	color:#383838;
+	margin-bottom: 10%;
+}
 
 
 #imgheader{
@@ -140,7 +148,7 @@ hr{
 }
 
 #lavorirecenti{
-	background-color: darkgrey;
+	background-color: #a9a9a994;
 }
 
 #lavorirecenti>div{
@@ -148,8 +156,6 @@ hr{
 	margin:auto;
 	padding-top:5%;
 	padding-bottom:6%;
-	color: #a9a9a9;
-	background-color: darkgrey;
 }
 
 .rjw:hover{
@@ -163,6 +169,7 @@ hr{
 
 #footerimg{
 	width: 5em;
+	margin-left: 1.3em;
 }
 
 
@@ -182,9 +189,10 @@ hr{
 
 
 .button{
+	font-family:Montserrat, sans-serif;
 	border-radius: 0.5em;
 	padding: 1em;
-	background-color: transparent;
+	background-color: #3f70adad;
 	font-size: 1.1em;
 	text-align: center;
 	cursor: pointer;
@@ -201,7 +209,6 @@ hr{
 .button:hover{
 	background-color: yellow;
 }
-
 
 
 .servizi{
@@ -256,7 +263,6 @@ hr{
 }
 
 
-
 .contattiz:hover{
 	opacity:0.7;
 }
@@ -276,8 +282,44 @@ hr{
 
 
 
+@media only screen and (max-width: 1180px){
+	nav a{
+	padding:0 .5em;
+}
+
+	#imgheader {
+    padding-left: 2em;
+}
+
+}
 
 
 
+@media only screen and (max-width: 880px){
+	nav{
+		float:none;
+		display: block;
+		text-align: center;
+	}
+
+	nav a{
+		margin:0 1em 1em;
+	    padding: 2% 20%;
+	   }
+
+	#imgheader {
+    position:absolute;
+}
+
+
+
+@media only screen and (max-width: 710px){
+	#company>div{
+	position: absolute;
+	font-size: 1em;
+	bottom: 1em;
+	left: 1em;
+}
+}
 
 
