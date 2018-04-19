@@ -76,17 +76,16 @@ main>div{
 	padding: 2em;
 	padding-top:5%;
 	padding-bottom: 6%;
-	background-color: blue;
+	/*background-color: #3f70adad;*/
 }
 
 
 
 footer{
-	background-color: #3f70adad;
+	/*background-color: #3f70adad;*/
+	background-color: rgba(74,118,181,1);
 	font-family:Montserrat, sans-serif;
 	font-size: .8em;
-
-	/*padding: 0 3em 1em;*/
 }
 
 
@@ -172,13 +171,17 @@ div>h2{
 */
 #lavorirecenti{
 	background-color: #f0f0f0;
+/*	background-image: url(photos/funky-lines-lavori1.png);
+    background-repeat: repeat-x;*/
 }
 
 #lavorirecenti>div{
-	width: 80%;
+	width: 83%;
 	margin:auto;
 	padding-top:5%;
 	padding-bottom:6%;
+
+	/**/
 }
 
 .rjw:hover{
@@ -327,7 +330,6 @@ div>h2{
 	nav{
 		float:none;
 		display: block;
-		text-align: center;
 	}
 
 	nav a{
@@ -335,10 +337,54 @@ div>h2{
 	    padding: 2% 20%;
 	   }
 
+	.servizi{
+	margin: 1em;
+	font-size: 1em;
+	float:none;	
+	width:90%;
+	text-align: center;
+	font-style: italic;
+	background-color: #e4eaf1eb;
+}  
+
+#funkylines{
+	/*width: 100%;*/
+	height: 100%;
+	background-image: url(photos/funky-lines.png);
+    background-repeat: repeat-y;
+}
+
 	#imgheader {
     position:absolute;
 }
 
+.lavori{
+	width: 90%;
+	float:none;
+	margin:1em;
+}
+
+#footerimg{
+	width: 5em;
+	display: block;
+	position: absolute;
+	box-sizing: border-box;
+    left: 45%;
+	margin-left: 2em;
+}
+
+#chisiamo{
+	display: none;
+}
+
+#mappa{
+	display: none;
+}
+
+
+#mappa{
+	display: none;
+}
 
 
 @media only screen and (max-width: 710px){
